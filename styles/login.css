@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header {
+  align-self: flex-end;
+  height: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  background-color: #765b87;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.555);
+}
+
+main {
+  background: linear-gradient(
+    244.11deg,
+    #765b87 0%,
+    rgba(118, 91, 135, 0.37) 100%
+  );
+  width: 30%;
+  height: 60%;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.644);
+}
+
+#card-login {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+#card-login-img {
+  width: 366px;
+  height: 145px;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+form > input {
+  font-size: 1em;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+  margin: 5px 0px;
+  width: 80%;
+  height: 40px;
+  padding-left: 20px;
+}
+
+form > input:focus {
+  outline-color: #765b87;
+}
+
+#login-button {
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #765b87;
+  color: white;
+  font-size: 1em;
+
+  margin-top: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+}
+
+#login-button:hover {
+  transform: translate(-1px, -1px);
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+header {
+  align-self: flex-end;
+  height: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  background-color: #765b87;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.555);
+}
+
+main {
+    width: 70%;
+    height: 80%;
+    background: linear-gradient(
+    244.11deg,
+    #765b87 0%,
+    rgba(118, 91, 135, 0.37) 100%
+  );
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#card-cadastro {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card-cadastro-img{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#cadastro-nome{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin:5px;
+    font-size: 1.3em;
+}
+
+
+
+#cadastro-button {
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1em;
+    margin: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.61);
+}

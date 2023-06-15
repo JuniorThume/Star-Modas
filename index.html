@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR MODAS</title>
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="./styles/first-screen.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav-header">
+        <div class="menu-hamburger">
+            <span class="material-icons icone-menu">menu</span>
+            <nav id="links-header" class="">
+                <a href="#moda-masculina" type="button" class="item-section">Masculino</a>
+                <hr>
+                <a href="#moda-feminina" type="button" class="item-section">Feminino</a>
+                <hr>
+                <a href="#moda-infantil" class="item-section">Infantil</a>
+                <hr>
+                <a href="#moda-fitness" class="item-section">Moda Fitness</a>
+                <hr>
+                <a href="#moda-calcados" class="item-section">Calçados</a>
+            </nav>
+        </div>
+        <h1>Star Modas</h1>
+        <div id="play-radio" class="pause">
+            <span class="material-icons icone-play">play_arrow</span>
+            <audio id="radio-web-star" src="https://servidor17-1.brlogic.com:7650/live?source=app_pwa" controls="controls"></audio>
+        </div>
+    
+        
+    </header>
+
+    <script src="scripts/play_radio.js"></script>
+    <script src="scripts/menu.js"></script>
+    
+</body>
+</html>
